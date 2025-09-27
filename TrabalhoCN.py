@@ -49,8 +49,8 @@ def false_position_method(f, a, b, tol, max_inter):
 
 
 if __name__ == "__main__":
-    f = lambda x: x**3 - 2*x - 5  #alterar conforme o problema proposta
-    a, b = 2, 3
+    f = lambda x: math.sin(x)- 0.5  
+    a, b = 0, 2
     tol  = 1e-6
     max_iter = 100
 
