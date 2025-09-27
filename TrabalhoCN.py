@@ -62,6 +62,16 @@ if __name__ == "__main__":
     print(f"Raiz (Bisseccao): {root_bisection}")
     print(f"Raiz (Falsa Posicao): {root_false_position}")
 
+    # EVOLUÇÃO
+    print("\n--- Evolucao por Bisseccao ---")
+    for i, approx in enumerate(storage_bisection):
+        print(f"Iteracao {i+1}: {approx}")
+
+    print("\n--- Evolucao por Falsa Posicao ---")
+    for i, approx in enumerate(storage_false_position):
+        print(f"Iteracao {i+1}: {approx}")
+
+
     # ---------------------------
     # Gráficos de comparação
     # ---------------------------
